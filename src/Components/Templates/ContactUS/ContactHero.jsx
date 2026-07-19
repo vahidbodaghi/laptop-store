@@ -10,7 +10,7 @@ const heroContent = {
 };
 function ContactHero() {
   return (
-    <section className="relative overflow-hidden bg-white">
+    <section className="relative overflow-hidden bg-gradient-to-b from-slate-100 via-blue-300 to-white">
       <div className="relative mx-auto max-w-5xl px-6 pb-20 pt-24 text-center sm:pb-24 sm:pt-32">
         <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-slate-600 backdrop-blur-sm">
           <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
